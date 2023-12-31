@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Paperback Plug</title>
+
+<style>
+  
+ body{ 
+  display: flex;
+  flex-wrap: wrap;
+ background-color: beige; 
+}
+.logo{
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo img{
+  display: flex;
+  width: 20rem;
+  padding-left: 27rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+
+
+}
+
+nav {
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: darkolivegreen;
+  justify-content: space-between;
+}
+
+
+.lines{
+  width: 19rem;
+}
+
+
+
+h3 {
+  font-family: cursive;
+  justify-content: center;
+  align-items: center;
+  color: darkolivegreen;
+}
+
+main {
+  display: flex;
+  flex-grow: 1; 
+  flex-wrap: wrap;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 0%;
+}
+.image1{
+  padding: 2rem;
+  margin: 10px;
+  margin-bottom: 0;
+  height: 3rem;
+  background-attachment: fixed;
+}
+
+.image2{
+  padding: 2rem;
+  margin: 10px;
+  margin-bottom: 0;
+  height: 3rem;
+  background-attachment: fixed;
+}
+
+
+.image3{
+  padding: 2rem;
+  margin:3px;
+  margin-top: 0.6rem;
+  height: 20rem;
+  margin-bottom: 0;
+  background-attachment: fixed;
+}
+
+.image4 {
+  padding: 2rem;
+  margin-bottom: 0;
+  margin: 10px;
+  height: 2rem;
+  background-attachment: fixed;
+}
+
+.image5{
+  padding: 2rem;
+  margin: 10px;
+  margin-bottom: 0;
+  height: 20rem;
+  background-attachment: fixed;
+}
+.image6{
+  padding: 2rem;
+  margin: 5px;
+  margin-top: 0.6rem;
+  height: 20rem;
+  background-attachment: fixed;
+}
+
+
+.books .image1,
+.books .image2,
+.books .image3,
+.books .image4,
+.books .image5,
+.books .image6 {
+  transition: transform 0.5s ease-in-out;
+}
+
+.books .image1:hover,
+.books .image2:hover,
+.books .image3:hover,
+.books .image4:hover,
+.books .image5:hover,
+.books .image6:hover {
+  transform: scale(1.2);
+}
+
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1rem;
+  margin: 0;
+}
+
+footer {
+  border: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  background-color: darkolivegreen;
+  color: white;
+  align-content: flex-end;
+  margin-top: 15rem;
+  margin-bottom: auto;}
+ 
+ 
+
+  </style>
+</head>
+
+<body>
+ 
+  <div class="logo"> 
+    <img src="Images\LOGOweb-removebg-preview.png" alt="Paperback plug">
+</div>
+  <div class="container">
+    <!-- This is the navigation section -->
+    <nav>
+     
+     <a style="text-decoration: none; color: black;"><p style="padding-left: 4rem;">Blog</p></a>
+    <a style="text-decoration: none; color: black;"href=""> <p> Categories</p></a>
+    <a style="text-decoration: none; color: black;"href=""><P>On-Sale</P></a>
+     <a style="text-decoration: none; color: black;"href=""><p> Shop</p></a>
+    <a style="text-decoration: none; color: black;"href=""><p> E-library</p></a>
+  <a style="text-decoration: none; color: black;"href=""><p style="padding-right: 5rem;">About us</p></a>
+    
+    </nav>
+    
+    <hr class="lines" style="margin-top: 2rem; margin-bottom: 0;">
+    <!-- The main section starts here and contains some selected display of books sold -->
+   
+      <h3 style="display: flex; align-content: center; margin-top: 0; margin-bottom: 0;">Some of our on demand titles</h3>
+      <hr class="lines">
+      <main> 
+    <section class="books">
+      <a href="books.com" style=" display: flex; flex-wrap: wrap; text-decoration: none; color: black;"> 
+        <div class="image1"> 
+      <img src="Images\americanah.jpg" alt="The Love Hypothesis">
+      <p> <em>Americanah</em> <br>
+       Chimamanda Ngozi <br>Adichie</p>     
+    </div>
+
+    <div class="image2">
+      <img src="Images\WYWM.jpg" alt="When You Were Mine">
+      <p><em> When You Were Mine</em> <br> Rebecca Serle</p> 
+    </div>
+    
+    <div class="image3">
+      <img src="Images\The_middle_daughter.jpg" alt="The middle daughter">
+      <p> <em>The Middle Daughter </em><br> Chika Unigwe</p> 
+    </div>
+
+    <div class="image4">
+      <img src="Images\BGMD.jpg" alt="Dark-Rise book">
+      <p><em> Black girls must <br>die exhausted</em><br>Jayne Allen</p> </div>
+
+      <div class="image5">
+        <img src="Images/DWD.jpg" alt="Dark-Rise book">
+        <p><em>Dele Weds Destiny</em><br>Tomi Obaron</p> </div>
+
+      <div class="image6">
+        <img src="Images\nicola-yoon.jpg" alt="Instructions for dancing ">
+        <p><em> Instructions for <br>dancing</em><br>Nicola Yoon</p> </div>
+  
+        <div class="image2">
+          <img src="Images\MBY.jpg" alt="When You Were Mine">
+          <p><em> Me Before You</em> <br> Jojo Moyes</p> 
+        </div>
+
+        <div class="image2">
+          <img src="Images\IDCTYBC.jpg" alt="When You Were Mine">
+          <p><em> I Do Not Come To You <br>By Chance</em> <br> Adaobi Tricia <br> Nwaubani</p> 
+        </div>
+
+        <div class="image2">
+          <img src="Images\ASOGT.jpg" alt="When You Were Mine">
+          <p><em>A Spell of Good Things</em> <br>Ayobami Adebayo <br> Nwaubani</p> 
+          </div>
+
+          <div class="image2">
+          <img src="Images\thhd.jpg" alt="When You Were Mine">
+          <p><em>The Hairdresser <br> of Harare <br></em>TendaI Huchu </p> 
+          </div>
+
+          <div class="image2">
+            <img src="Images\tORotation.jpg" alt="On Rotation">
+            <p><em>On Rotation <br></em>Shirlene Obuobi </p>
+          </div>
+
+
+          <div class="image2">
+            <img src="Images\BTTM.jpg" alt="Better Than The Movies">
+            <p><em>Better than the movies <br></em>Lynn Painter </p>
+          </div>
+        </a>
+  </section>
+    </main>
+<!-- The footer section begins from here, and contains vital information -->
+    <footer>
+
+      <div class="commnunity" style="margin: 3rem; margin-left: 5rem;">
+       <h4 style="margin-left: 2.5rem; margin-bottom: 0%;"> Our Community</h4>
+       <hr style="margin-left:2rem; margin-top: 0.5rem; width: 7.5rem;">
+       <div style="padding-left: 3rem;"> 
+      <a href="google.com " style="text-decoration: none;
+    color: #000;">
+      <p style="color: white;">Book Club</p>
+       <p style="color: white;"> Tiktok</p>
+       <p style="color: white;"> Newsletter</p>
+      </a>
+      </div>
+      </div>
+
+      <div class="addresses" style="margin-top: 3rem; margin-left: 15rem;">
+        <h4 style="margin-left: 3.5rem; margin-bottom: 0%;">Address</h4>
+        <hr style="margin-left:2rem; margin-top: 0.5rem; width: 6.5rem; color: black;">
+        <div style="padding-left: 2rem;">
+        <p>Shop no 4, Heart Plaza, <br>Wuse 2, Abuja</p> 
+        <p> No 32, Riverside, <br>Off Ogundele street, <br>Lekki Phase2, Lagos </p>
+        </div>
+      </div>
+     
+
+      <div class="contact" style="margin-top: 3rem; margin-left: 15rem;">
+        <h4 style="margin-left: 3rem; margin-bottom: 0%;">Contact Us</h4>
+        <hr style="margin-left:2rem; margin-top: 0.5rem; width: 6.5rem;"><a href="google.com"  style="text-decoration: none;
+    color: #000;"> 
+        <div style="padding-left: 3rem; display: flex; flex-wrap: wrap; flex-direction: column; align-items: flex-start;">
+          <div style="display: flex; align-items: center; margin-bottom: 0;">
+               <img src="Images\whatsappicon-removebg-preview.png" alt="icon" class="icon" style="margin-top: 1rem;">
+           <p style="margin-left: 0.5rem; margin-bottom: 0; color: white;">Whatsapp</p>
+          </div>
+          <div style="display: flex; align-items: center; margin-top: 0;">
+            <img src="Images\instaicon-removebg-preview.png" alt="icon" class="icon">
+            <p style="margin-left: 0.5rem; color: white;">Instagram</p>
+          </div>
+          <div style="display: flex; align-items: center;">
+            <img src="Images\twitterlogo3-removebg-preview.png" alt="icon" class="icon" style="margin-top: -1rem;">
+            <p style="margin-left: 0.5rem; margin-top: 0; color: white;">Twitter</p>
+          </div>
+        </a>
+        </div>
+      </div>
+      
+    </footer>
+  </div>
+</body>
+</html>
